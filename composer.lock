@@ -961,16 +961,16 @@
         },
         {
             "name": "itcpp/sendrequest",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itCpp/sendrequest.git",
-                "reference": "b36e0d54a6b7c6785a6ba830fa478b6a071e9577"
+                "reference": "8bbfd4a734cec822ac1d67d9d4794e17b27dfb14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itCpp/sendrequest/zipball/b36e0d54a6b7c6785a6ba830fa478b6a071e9577",
-                "reference": "b36e0d54a6b7c6785a6ba830fa478b6a071e9577",
+                "url": "https://api.github.com/repos/itCpp/sendrequest/zipball/8bbfd4a734cec822ac1d67d9d4794e17b27dfb14",
+                "reference": "8bbfd4a734cec822ac1d67d9d4794e17b27dfb14",
                 "shasum": ""
             },
             "require": {
@@ -1005,9 +1005,9 @@
             "description": "Add request from site",
             "support": {
                 "issues": "https://github.com/itCpp/sendrequest/issues",
-                "source": "https://github.com/itCpp/sendrequest/tree/v0.1.1"
+                "source": "https://github.com/itCpp/sendrequest/tree/v0.1.2"
             },
-            "time": "2021-12-21T14:05:41+00:00"
+            "time": "2021-12-21T14:47:24+00:00"
         },
         {
             "name": "laravel/framework",
