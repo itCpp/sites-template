@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c69dfe6dd0c5cc120587016db143e5c0",
+    "content-hash": "1e3d2eaa507e29b45e529051b2b59dec",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -961,16 +961,16 @@
         },
         {
             "name": "itcpp/sendrequest",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itCpp/sendrequest.git",
-                "reference": "8bbfd4a734cec822ac1d67d9d4794e17b27dfb14"
+                "reference": "d85d2a4e2982807de2e05c94bfc1e68a63f39dda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itCpp/sendrequest/zipball/8bbfd4a734cec822ac1d67d9d4794e17b27dfb14",
-                "reference": "8bbfd4a734cec822ac1d67d9d4794e17b27dfb14",
+                "url": "https://api.github.com/repos/itCpp/sendrequest/zipball/d85d2a4e2982807de2e05c94bfc1e68a63f39dda",
+                "reference": "d85d2a4e2982807de2e05c94bfc1e68a63f39dda",
                 "shasum": ""
             },
             "require": {
@@ -1005,9 +1005,9 @@
             "description": "Add request from site",
             "support": {
                 "issues": "https://github.com/itCpp/sendrequest/issues",
-                "source": "https://github.com/itCpp/sendrequest/tree/v0.1.2"
+                "source": "https://github.com/itCpp/sendrequest/tree/v0.1.3"
             },
-            "time": "2021-12-21T14:47:24+00:00"
+            "time": "2021-12-21T15:20:53+00:00"
         },
         {
             "name": "laravel/framework",
