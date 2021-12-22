@@ -28,7 +28,7 @@ class WriteStatViewPages
                 'referer' => $request->server('HTTP_REFERER') ? mb_substr($request->server('HTTP_REFERER'), 0, 500) : null,
                 'request_data' => [
                     'cookie' => $_COOKIE,
-                    'request' => $request->all(),
+                    'request' => \App\Http\Controllers\Controller::encrypt($request->all()),
                     'headers' => $request->header(),
                     'method' => $request->server('REQUEST_METHOD'),
                     'query_string' => $request->getQueryString(),
