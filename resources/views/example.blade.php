@@ -59,7 +59,7 @@
                 },
                 error: error => {
                     console.log(error);
-                    $('#error').show().text(error.responseJSON && error.responseJSON.message);
+                    $('#error').show().text((error.responseJSON && error.responseJSON.message) || error.statusText);
                     $('#response').show().text(error.responseText);
                 },
                 complete: () => {

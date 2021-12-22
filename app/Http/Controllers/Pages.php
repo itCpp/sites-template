@@ -14,6 +14,9 @@ class Pages extends Controller
      */
     public function example(Request $request)
     {
+        if (!env("EXAMPLE_PAGE_ACCESS", false))
+            return abort(404);
+
         return view("example");
     }
 }
