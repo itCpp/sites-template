@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('main');
 });
 
+Route::get('example', 'Pages@example');
+
 Route::post('itcpp/sendrequest', '\ItCpp\Sendrequest\SendRequest@send');
