@@ -23,6 +23,7 @@ class StatView extends Model
      */
     protected $fillable = [
         'ip',
+        'method',
         'page',
         'referer',
         'request_data',
